@@ -3,26 +3,92 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Aula 003</title>
+    <title>Execicio 003</title>
 </head>
 <body>
-    <h2>Etapas para a publicação de uma página HTML</h2>
-    <ol start="3" type="A">
-        <li>Crie uma conta no GitHub (se não tiver).</li>
-        <li>Crie um novo repositório público e dê um nome a ele.</li>
-        <li>Faça o upload dos seus arquivos (incluindo o index.html) para esse repositório.</li>
-        <li>Acesse as configurações (Settings) do repositório.</li>
-        <li>Vá até a aba "Pages" no menu lateral esquerdo.</li>
-        <li>Selecione a branch principal (geralmente main ou master) em Build and deployment e clique em Save.</li>
-        <li>Aguarde alguns minutos e o GitHub fornecerá o link público do seu site (ex: seu-usuario.github.io/nome-do-repositorio).</li>
+    <ul id="home">
+        <li>Primeiro item</li>
+        <li>Segundo item</li>
+    </ul>
+
+    <h2>Materiais para a oficina</h2>
+    <ul>
+        <li>Caderno</li>
+        <li>Lápis</li>
+        <li>Canetas coloridas</li>
+        <li title="Opcional">Borracha</li>
+    </ul>
+
+    <h2>Gêneros literários</h2>
+    <ul id="gênero">
+        <li title="Romance">Romance</li>
+        <li title="Ficção">Ficção</li>
+        <li title="Drama">Drama</li>
+        <li title="Suspense">Suspense</li>
+        <li title="Terror">Terror</li>
+    </ul>
+
+    <h2>Como reservar um livro</h2>
+    <ol>
+        <li>Escolha o livro no catálogo.</li>
+        <li>Preencha o formulário de reserva.</li>
+        <li>Aguarde a confirmação da biblioteca.</li>
     </ol>
 
-    <p>A sequência deve ser obedecida para estabelecer o resultado do objetivo final, por exemplo, o passo B não deve vir primeiro que o passo A, pois o passo B necessita de uma conta criada e o passo A é o passo de criação da conta</p>
-
-    <ol type="I" reversed="true">
-        <li>Cada passo é importante e deve ser seguido</li>
-        <li>Faça os passos em sequência A-Z</li>
-        <li>Um passo posterior só pode ser feito se o passo q antecede ele tenha sido finalizado</li>
+    <ol>
+        <li>Planejar</li>
+        <li value="5">Publicar como etapa cinco</li>
+        <li>Revisar</li>
     </ol>
+
+    <ol type="1" start="1">
+        <li>Escolha o livro no catálogo.</li>
+        <li value="5">Preencha o formulário de reserva.</li>
+        <li>Aguarde a confirmação da biblioteca.</li>
+    </ol>
+
+    <h2>Marcas de carro</h2>
+    <ol type="A" start="3">
+        <li>Toyota</li>
+        <li>Fiat</li>
+        <li>Volkswagen</li>
+        <li>Chevrolet</li>
+        <li>BYD</li>
+        <li>Hyundai</li>
+    </ol>
+
+    <h2>Frutas com mais vitamina C</h2>
+    <ol reversed>
+        <li>Mangaba</li>
+        <li>Araçá</li>
+        <li>Acerola</li>
+        <li>Ameixa-kakadu</li>
+        <li>Camu-Camu</li>
+    </ol>
+
+    <h2>Linguagens da WEB</h2>
+    <dl>
+        <dt>HTML</dt>
+        <dd>Linguagem de marcação usada para estruturar páginas.</dd>
+
+        <dt>CSS</dt>
+        <dd>Linguagem usada para apresentar e estilizar documentos.</dd>
+    
+        <dt>JavaScript</dt>
+        <dd>linguagem de programação interpretada, de alto nível, com tipagem dinâmica e multiparadigma</dd>
+
+        <dt>Express</dt>
+        <dd> Um framework web mínimo, flexível e muito popular para Node.js usado na criação de APIs e aplicativos.</dd>
+    </dl>
+
+    <nav aria-label="Navegação principal">
+        <ul>
+            <li><a href="#home">Início</a></li>
+            <li><a href="carros.html" target="_blank">Carros</a></li>
+            <li><a href="formula1.html" download="">Formula 1</a></li>
+        </ul>
+    </nav>
+
+    <a href="exercicioFinal.html">Exercicio final</a>
 </body>
-</html>
+</html> 
